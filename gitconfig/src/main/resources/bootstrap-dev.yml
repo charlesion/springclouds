@@ -9,10 +9,15 @@ spring:
         service-id: config
 
 server:
-  port: 8881
+  port: 8882
 
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
+management:
+  security:
+    enabled: false
+
 

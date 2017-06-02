@@ -24,24 +24,30 @@
         <processorPath useClasspath="true" />
         <module name="client8762" />
         <module name="client8763" />
+        <module name="clientzipkin8988" />
+        <module name="clientzipkin8989" />
         <module name="config" />
         <module name="configclient" />
         <module name="feign" />
         <module name="gitconfig" />
         <module name="ribbon" />
         <module name="servereureka" />
+        <module name="serverzipkin" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client8762" target="1.8" />
       <module name="client8763" target="1.8" />
+      <module name="clientzipkin8988" target="1.8" />
+      <module name="clientzipkin8989" target="1.8" />
       <module name="config" target="1.8" />
       <module name="configclient" target="1.8" />
       <module name="feign" target="1.8" />
       <module name="gitconfig" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="servereureka" target="1.8" />
+      <module name="serverzipkin" target="1.8" />
       <module name="springclouds" target="1.5" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
